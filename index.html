@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form onsubmit=" return validateForm() " method="POST" action="login.php">
+
+        <h1>Login</h1><br>
+
+        <label for="id">ID:</label><br>
+        <input type="text" name="id" id="id" required><br><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" required><br><br><br>
+
+       
+        <button type="submit">Login</button>
+        <script src="login.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>

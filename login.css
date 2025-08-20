@@ -1,0 +1,39 @@
+* {
+    font-family:  sans-serif;
+    
+}
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.wrapper h1 {
+    text-align:center;
+    font-size: 50px;
+    font-style: inherit;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 490px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: grey;
+    color: white;
+    width: 280px;
+    height: 40px;
+    border: solid;
+    border-color: white;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+   
